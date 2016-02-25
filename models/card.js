@@ -10,6 +10,8 @@ var Card = new Schema({
 	img: String,
 	targetZonePattern: String,
 	targets: String,
+	power: Number,
+	toughness: Number,
 	abilities: []
 });
 
