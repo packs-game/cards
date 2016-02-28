@@ -6,6 +6,7 @@ var Card = new Schema({
 	cost: Number,
 	tier: Number,
 	type: String,
+	subtype: String,
 	text: String,
 	img: String,
 	targetZonePattern: String,
